@@ -14,22 +14,8 @@
   position: relative;
   color: black;
   animation-name: slide;
+}
 
-  transition: all 3s ease-in-out;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-/* .nav:hover .modal {
-  transform: translateY(-100%);
-} */
-@keyframes slide {
-  /* 0% {
-    top: -20px;
-  } */
-  100% {
-    transform: translateY(5%);
-  }
-}
 .nav-flex {
   display: flex;
   justify-content: space-around;
